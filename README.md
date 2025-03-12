@@ -4,11 +4,10 @@ I'm a passionate software developer with a love for creating innovative solution
 
 ## 🛠️ Technologies & Tools
 
-- **Languages:** JavaScript, Python, Java, C++
+- **Languages:** JavaScript, Python, C, C++
 - **Frameworks & Libraries:** React, Node.js, Express, Django, Flask
 - **Databases:** MySQL, PostgreSQL, MongoDB
-- **Tools & Platforms:** Git, Docker, Kubernetes, AWS, Azure
-- **Other:** RESTful APIs, GraphQL, CI/CD, Agile Methodologies
+- **Tools & Platforms:** Git, Docker
 
 ## 🚀 Projects
 
@@ -28,10 +27,6 @@ Description of yet another project. Mention any challenges faced and how they we
 ![Watersrc-stack's GitHub stats](https://github-readme-stats.vercel.app/api?username=Watersrc-stack&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Watersrc-stack&layout=compact&theme=radical)
 
-## ⏳ Wakatime Stats
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
 
 ## 📝 Blog Posts
 
@@ -42,8 +37,7 @@ Description of yet another project. Mention any challenges faced and how they we
 ## 📫 Get in Touch
 
 - [LinkedIn](https://www.linkedin.com/in/your-profile)
-- [Twitter](https://twitter.com/your-profile)
-- [Email](mailto:your-email@example.com)
+- [Email](mailto:killian.cassard@epitech.eu)
 
 ## 🤝 Contributions
 
