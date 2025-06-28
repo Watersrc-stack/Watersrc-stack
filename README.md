@@ -10,6 +10,7 @@ I'm a passionate software developer with a love for creating innovative solution
 - **Tools & Platforms:** Git, Docker
 
 ## 📈 GitHub Stats
+![Wakapi badge](https://wakapi.dev/api/badge/water_s0urce/water_s0urce/interval:30_days?label=last%2030d)
 
 ![Watersrc-stack's GitHub stats](https://github-readme-stats.vercel.app/api?username=Watersrc-stack&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Watersrc-stack&layout=compact&theme=radical)
