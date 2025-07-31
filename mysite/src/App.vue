@@ -1,51 +1,30 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import { type Ref, ref } from 'vue'
 
-const count: Ref<number, number> = ref(0)
-var isSup: boolean = false
+const tasks: Ref<Array<{txt: string, done: boolean, date: number}>, Array<{txt: string, done: boolean, date: number}>> = ref([])
+const newTaskName: Ref<string, string> = ref('')
 
-const increment = (event: Event) => {
-  console.log(event)
-  count.value++
-  isSup = count.value > 9
+const addNewTask = () => {
+  tasks.value.push({
+    txt: newTaskName.value,
+    done: true,
+    date: Date.now()
+  })
+  newTaskName.value = ''
 }
 
-const movies: Ref<string[], string[]> = ref(['Titanic', 'Ready player one', 'Le labyrinthe'])
 
-const deleteMovie = (movie: string) => {
-  movies.value = movies.value.filter((m) => m !== movie)
-}
-
-const movieName: Ref<string, string> = ref('')
-
-const addMovie = (event: Event) => {
-  movies.value.push(movieName.value)
-  movieName.value = ''
-  // event.preventDefault()
-}
 </script>
 
 <template>
-  <p
-    v-bind:id="`p-count-${count}`"
-    v-bind:style="{ color: count > 9 ? 'red' : count > 4 ? 'blue' : 'green' }"
-  >
-    Compteur: {{ count }}
-  </p>
-  <div v-if="isSup">Pov cookie clicker</div>
-  <div v-else-if="count > 4">You know how to click on a button congrats</div>
-  <div v-else>Too bad</div>
-  <button v-on:click="increment">inc</button>
-
-  <hr />
-  <form action="" v-on:submit.prevent="addMovie">
-    <input type="text" placeholder="new film" v-model="movieName" />
+  <p>Todo list</p>
+  <form action="" v-on:submit.prevent="addNewTask">
+    <input type="text" placeholder="new task" v-model="newTaskName"/>
     <button>Add</button>
   </form>
-
   <ul>
-    <li v-for="mv in movies" v-bind:key="mv">
-      {{ mv }}<button class="txtbtn" v-on:click="deleteMovie(mv)">&#128465;</button>
+    <li v-for="task in tasks">
+      <input type="checkbox" v-model="task.done"> {{ task.txt }} is {{ task.done }}
     </li>
   </ul>
 </template>
@@ -56,4 +35,57 @@ const addMovie = (event: Event) => {
   background: none;
   padding: 0, 0, 0, 0;
 }
+</style> -->
+
+<template>
+  <div class="header">
+    <!-- <h1>Hello App!</h1>
+    <p><strong>Current route path:</strong> {{ $route.fullPath }}</p> -->
+    <nav>
+      <img class="logo" src="/public/favicon.ico" alt="logo" />
+      <RouterLink class="navItem" to="/">Go to Home</RouterLink>
+      <RouterLink class="navItem" to="/about">Go to About</RouterLink>
+    </nav>
+  </div>
+    <main>
+      <RouterView />
+  </main>
+</template>
+
+
+<style lang="css" scoped>
+.header {
+  background-color: rgb(33, 33, 33);
+  top: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  outline-color: gray;
+  outline-style: double;
+  outline-width: 1px;
+  border-radius: 3px;
+  transition: outline-color 0.25s ease-in-out;
+}
+
+nav:hover {
+  outline-color: whitesmoke;
+}
+
+.navItem {
+  margin-left: 15px;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  margin-left: 8vw;
+  margin-right: 4vw;
+}
+
+p {
+  color: aliceblue;
+}
+
 </style>
