@@ -3,7 +3,7 @@
 I'm a passionate software developer with a love for discovering new things and innovative ideas.
 I'm also a third-year IT student; you can checkout some of my best school projects on my personnal GitHub profile and [here](https://github.com/HexaTeam-By-Epitech/) (much more professionnal, latest in date).
 
-Besides school, I worked on a few projects, [rcpfe]() and [TouchWithEyes]() being the only ones seing the sunlight, worked as full-stack developper for two small enterprises - contact me if you want access to a demo version of what I can do !
+Besides school, I worked on a few projects, [rcpfe](https://github.com/Watersrc-stack/rcpfe) and [TouchWithEyes](https://github.com/Watersrc-stack/TouchWithEyes) being the only ones seing the sunlight, worked as full-stack developper for two small enterprises - contact me if you want access to a demo version of what I can do !
 My ambition doesn't stop here, more projects, - about security, user rights, the digital divide - are coming soon to complete my portfolio and enhance my knwoledge.
 
 
