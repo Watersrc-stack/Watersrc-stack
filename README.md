@@ -1,7 +1,7 @@
 # Hi there, I'm Watersrc-stack 👋
 
-I'm a passionate software developer with a love for creating innovative solutions and exploring new technologies.
-
+I'm a passionate software developer with a love for discovering new things and innovative ideas.
+I'm also a third-year IT student; you can checkout some of my best school projects on my personnal GitHub profile and [here](https://github.com/HexaTeam-By-Epitech/) (much more professionnal, latest in date).
 ## 🛠️ Technologies & Tools
 
 - **Languages:** js/ts, Python, C, C++, Rust
